@@ -9,12 +9,6 @@ body, html {
 .main {
     padding: 0px 0px;
 }
-  
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
-}
 
 .title {
     position: relative;
@@ -26,9 +20,4 @@ body, html {
     flex-wrap: nowrap;
     background-color: #111;
     color: white;
-}
-
-.title h1 {
-    width: 85%;
-    min-width: 325px;
 }

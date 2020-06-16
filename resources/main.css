@@ -10,6 +10,17 @@ body, html {
     padding: 0px 0px;
 }
 
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    line-height: 100px;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #111;
+}
+
 .title {
     position: relative;
     display: flex;

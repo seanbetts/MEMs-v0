@@ -2,6 +2,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
   
@@ -14,21 +15,26 @@ body, html {
     position: relative;
     display: flex;
     flex-direction: row;
-    line-height: 100px;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
+    height: auto;
     flex-wrap: nowrap;
-    background-color: #111;
+    background-color: #000000;
+}
+
+.logo img {
+    width: 500px;
+    height: auto;
+    padding: 0px;
 }
 
 .title {
     position: relative;
     display: flex;
     flex-direction: row;
-    line-height: 50px;
     align-items: baseline;
     justify-content: center;
     flex-wrap: nowrap;
-    background-color: #111;
+    background-color: #000000;
     color: white;
 }
